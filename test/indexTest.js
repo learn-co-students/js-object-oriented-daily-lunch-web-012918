@@ -284,7 +284,7 @@ describe('employers', function() {
   });
 
   it('does not repeat the same meal twice', function() {
-    expect(employer.meals().length).to.equal(1);
+    expect(employer.meals().size).to.equal(1);
   });
 });
 
